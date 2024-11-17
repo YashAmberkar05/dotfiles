@@ -1,12 +1,12 @@
-@define-color bg rgba(0, 0, 0, 0.6);
-@define-color fg #83a2fc;
+@define-color bg rgba(0, 0, 0, 0.8);
+@define-color fg #f4ff9e;
 
 * {
    border: none;
    border-radius: 2px;
    font-family: "JetBrainsMono Nerd Font";
    font-weight: bold;
-   font-size: 14px;
+   font-size: 15px;
    min-height: 2px;
 }
 

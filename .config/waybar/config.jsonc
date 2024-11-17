@@ -5,7 +5,7 @@
 	// general config //
 	"layer": "top",
 	"position": "top",
-	"height": 38,
+	"height": 45,
 	"exclusive": true,
 	"passthrough": false,
 	"gtk-layer-shell": true,
