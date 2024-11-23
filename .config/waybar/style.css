@@ -1,12 +1,12 @@
 @define-color bg rgba(0, 0, 0, 0.8);
-@define-color fg #f4ff9e;
+@define-color fg #FEFBFE;
 
 * {
    border: none;
    border-radius: 2px;
    font-family: "JetBrainsMono Nerd Font";
    font-weight: bold;
-   font-size: 15px;
+   font-size: 16px;
    min-height: 2px;
 }
 
@@ -29,7 +29,7 @@ tooltip {
    text-shadow: none;
    padding: 0px;
    margin-top: 1px;
-   margin-bottom: 1px;
+   margin-bottom: 0px;
    margin-left: 2px;
    margin-right: 2px;
    transition-duration: 0.5s;
@@ -45,8 +45,7 @@ tooltip {
 }
 
 #workspaces button.active {
-   border-bottom: 2px solid;
-   color: @fg;
+   color: #03f9a7;
    transition-duration: 0.5s;
 }
 

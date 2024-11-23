@@ -24,7 +24,7 @@
 }
 {
     "label" : "logout",
-    "action" : "loginctl kill-session $XDG_SESSION_ID",
+    "action" : "hyprctl kill-session $XDG_SESSION_ID && hyprlock",
     "text" : "Logout",
     "keybind" : "e"
 }

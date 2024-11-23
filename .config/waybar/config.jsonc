@@ -5,7 +5,7 @@
 	// general config //
 	"layer": "top",
 	"position": "top",
-	"height": 45,
+	"height": 41,
 	"exclusive": true,
 	"passthrough": false,
 	"gtk-layer-shell": true,
@@ -83,21 +83,22 @@
 	"hyprland/workspaces": {
 		"format": "{icon}",
 		"format-icons": {
-			"1": "1",
-			"2": "2",
-			"3": "3",
-			"4": "4",
-			"5": "5",
-			"6": "6",
-			"7": "7",
-			"8": "8",
-			"9": "9"
+			"1": "零",
+			"2": "二",
+			"3": "三",
+			"4": "四",
+			"5": "五",
+			"6": "六",
+			"7": "七",
+			"8": "八",
+			"9": "九"
 		},
 		"persistent-workspaces": {
 			"1": [],
 			"2": [],
 			"3": [],
-			"4": []
+			"4": [],
+			"5": []
 		}
 	},
 
@@ -140,8 +141,8 @@
 		"rotate": 0,
 		"format-muted": " ",
 		"format-icons": {
-			"headphone": " ",
-			"hands-free": " ",
+			"headphone": "",
+			"hands-free": "",
 			"headset": " ",
 			"phone": " ",
 			"portable": " ",
